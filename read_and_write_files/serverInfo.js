@@ -1,7 +1,7 @@
 //run: node serverInfo
 const os = require('os');
 const path = require('path');
-const { add, multiply, divide } = require('./math')
+const { add, multiply, divide } = require('./math.js')
 
 test = add(6, 194)
 console.log(test, " OK")
